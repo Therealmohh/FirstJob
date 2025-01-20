@@ -1,7 +1,7 @@
 import React from "react";
-// import Phone1 from "../../assets/iphone 14 Pro (1).png";
-import Phone from "../../assets/iphone 14 Pro (3).png";
-import Phone2 from "../../assets/iphone 14 Pro (2).png";
+import Phone1 from "../../assets/iphone14Pro(1).png";
+// import Phone from "../../assets/iphone 14 Pro (3).png";
+import Phone2 from "../../assets/iphone14Pro(2).png";
 import Macbook from "../../assets/Macbook-Pro-16.png";
 import Formpic from "../../assets/Request form.jpg";
 
@@ -40,7 +40,7 @@ const Work = () => {
             <div className="bg-primary-color mx-auto rounded-3xl sm:w-[360px] sm:h-[301px] lg:w-[616px] lg:h-[474px] p-4 overflow-hidden flex flex-col items-center justify-center">
               <div className="image-container relative flex items-center justify-center h-full">
                 <img
-                  src={Phone}
+                  src={Phone1}
                   alt="Mobile HMS - 2024"
                   className="transition-transform duration-300 transform translate-y-1/2 lg:hover:translate-y-32 sm:hover:translate-y-24"
                   style={{ maxHeight: "130%", maxWidth: "130%" }}

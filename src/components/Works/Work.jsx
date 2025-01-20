@@ -1,5 +1,5 @@
 import React from "react";
-import Phone1 from "../../assets/iphone14Pro(1).png";
+// import Phone1 from "../../assets/iphone14Pro(1).png";
 // import Phone1 from "../../assets/iphone14Pro(1).png";
 // import Phone from "../../assets/iphone 14 Pro (3).png";
 import Phone2 from "../../assets/iphone14Pro(2).png";

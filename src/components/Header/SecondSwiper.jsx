@@ -1,14 +1,13 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/autoplay"; // Import autoplay styles
 import { Autoplay } from "swiper/modules";
 
-import work1 from "../../assets/work1.png";
-import work2 from "../../assets/work2.png";
-import work3 from "../../assets/work3.png";
-import work4 from "../../assets/work4.png";
-import work5 from "../../assets/work5.png";
+import work1 from "@/assets/work1.png";
+import work2 from "@/assets/work2.png";
+import work3 from "@/assets/work3.png";
+import work4 from "@/assets/work4.png";
+import work5 from "@/assets/work5.png";
 
 const SecondSwiper = () => {
   return (

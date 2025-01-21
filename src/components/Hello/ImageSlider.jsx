@@ -1,11 +1,10 @@
-import React from "react";
 import Slider from "react-slick";
-import sako from "../../assets/Sako-logo.png";
-import techpay from "../../assets/techpay-logo.png";
-import Smart from "../../assets/Smarthms-logo.png";
-import Funconnect from "../../assets/Funconnect-Logo.png";
-import Alphabeta from "../../assets/Alphabeta-Logo.png";
-import LagosState from "../../assets/LagosState-Logo.png";
+import sako from "@/assets/Sako-logo.png";
+import techpay from "@/assets/techpay-logo.png";
+import Smart from "@/assets/Smarthms-logo.png";
+import Funconnect from "@/assets/Funconnect-Logo.png";
+import Alphabeta from "@/assets/Alphabeta-Logo.png";
+import LagosState from "@/assets/LagosState-Logo.png";
 
 const ImageSlider = () => {
   const images = [sako, techpay, Smart, Funconnect, Alphabeta, LagosState];

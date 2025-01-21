@@ -1,10 +1,9 @@
-import React from "react";
-import arrow from "../../assets/ArrowUpRight.png";
-import twitter from "../../assets/Vector (1).png";
-import dribble from "../../assets/Dribble.svg.png";
-import medium from "../../assets/medium.png";
-import linkdin from "../../assets/Linkdin.png";
-import Behance from "../../assets/Behance.png";
+import arrow from "@/assets/ArrowUpRight.png";
+import twitter from "@/assets/Vector (1).png";
+import dribble from "@/assets/Dribble.svg.png";
+import medium from "@/assets/medium.png";
+import linkdin from "@/assets/Linkdin.png";
+import Behance from "@/assets/Behance.png";
 
 const Footer = () => {
   return (
@@ -24,7 +23,7 @@ const Footer = () => {
             }}
           ></div>
           <h1 className="text-center tracking-tighter text-[32px] italic transform scale-y-125 font-instrument-serif sm:text[21px] mx-2">
-            I'm available
+            I&apos;m available
           </h1>
           <div
             className="flex-grow border-secondary-color h-1 bg-yellow-300 w-1/6"
@@ -37,11 +36,11 @@ const Footer = () => {
         </div>
         <div className="text-center flex flex-col justify-center items-center">
           <h1 className="italic lg:text-[70px] sm:text-[50px]  transform scale-y-125 tracking-tight">
-            Let's Connect
+            Let&apos;s Connect
           </h1>
           <p className="lg:w-1/2 sm:w-[90%] mb-5 lg:text-[22px]  text-secondary-color">
-            Feel free to contact me if you have any questions. I'm available for
-            new projects or just for chatting.
+            Feel free to contact me if you have any questions. I&apos;m
+            available new projects or just for chatting.
           </p>
           <div className="overflow-hidden mt-5 p-2 px-2 rounded-full gradient-background ">
             {" "}

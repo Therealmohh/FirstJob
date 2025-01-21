@@ -1,14 +1,13 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/autoplay"; // Import autoplay styles
 import { Autoplay } from "swiper/modules";
 
-import pic1 from "../../assets/lagos 1.png";
-import pic2 from "../../assets/lagos 2.png";
-import pic3 from "../../assets/lagos 3.png";
-import pic4 from "../../assets/lagos 4.png";
-import pic5 from "../../assets/lagos 5.png";
+import pic1 from "@/assets/lagos 1.png";
+import pic2 from "@/assets/lagos 2.png";
+import pic3 from "@/assets/lagos 3.png";
+import pic4 from "@/assets/lagos 4.png";
+import pic5 from "@/assets/lagos 5.png";
 
 const FirstSwiper = () => {
   return (

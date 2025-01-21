@@ -1,4 +1,3 @@
-import React from "react";
 import odun from "../../assets/odun 1.png";
 import FirstSwiper from "./FirstSwiper";
 import SecondSwiper from "./SecondSwiper";
@@ -14,7 +13,7 @@ const Header = () => {
           {" "}
           {/* Reduced margin-bottom */}
           <h1 className="lg:text-6xl sm:text-5xl transform scale-y-125 inline-flex gap-2">
-            I'm <span className="text-secondary-color italic">Odun.</span>
+            I&apos;m <span className="text-secondary-color italic">Odun.</span>
           </h1>
           <div>
             <img

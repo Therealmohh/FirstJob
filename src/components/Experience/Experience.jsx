@@ -1,5 +1,3 @@
-import React from "react";
-
 const Experience = () => {
   const experienceData = [
     {
@@ -56,8 +54,8 @@ const Experience = () => {
       <div className="">
         {experienceData.map((item, i) => {
           return (
-            <div className="">
-              <div key={i} className="w-full max-w-[80%]  mx-auto">
+            <div key={i} className="">
+              <div className="w-full max-w-[80%]  mx-auto">
                 <div className="sm:flex sm:flex-wrap sm:items-center lg:flex lg:justify-between lg:items-center text-center w-full mt-8 py-3">
                   {/* Role */}
                   <p className="text-secondary-color text-lg lg:text-xl sm:w-1/2 lg:w-1/3 text-left">

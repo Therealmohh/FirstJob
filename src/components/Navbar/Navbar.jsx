@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import odun_logo from "../../assets/odun-logo.png";
-import phone from "../../assets/Phone.png";
+import odun_logo from "@/assets/odun-logo.png";
+import phone from "@/assets/Phone.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

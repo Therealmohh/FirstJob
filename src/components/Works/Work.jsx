@@ -4,7 +4,7 @@ import Phone1 from "../../assets/iPhone14Pro1.png";
 import { useEffect } from "react";
 
 import Phone2 from "../../assets/iPhone14Pro2.png";
-import Macbook from "../../assets/Macbook-Pro-16.png";
+import Macbook from "../../assets/MacBook-Pro-16.png";
 import Formpic from "../../assets/Request form.jpg";
 
 import AOS from "aos";

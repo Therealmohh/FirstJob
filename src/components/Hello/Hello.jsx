@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ImageSlider from "./ImageSlider";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Hello = () => {
+  // Initialize AOS
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration
+    });
+  }, []);
+
   return (
     <div className="mt-24">
       <div className="">
@@ -26,16 +35,20 @@ const Hello = () => {
             }}
           ></div>
         </div>
-        <div className=" lg:flex sm:flex-row lg:mt-20 sm:mt-12 justify-between lg:flex-row ">
-          <div className=" lg:flex justify-between  gap-7 items-center mx-auto">
-            <div className="lg:flex sm:text-[13px] sm:mb-8 sm:justify-center sm:flex lg:text-[18px] mx-auto lg:flex-col lg:gap-20 ">
-              <h1 className="bg-white text-center p-2 sm:w-[25%] lg:w-[100%] mr-3  rounded-full transform rotate-12">
+        <div className="lg:flex sm:flex-row lg:mt-20 sm:mt-12 justify-between lg:flex-row ">
+          <div className="lg:flex justify-between gap-7 items-center mx-auto">
+            <div
+              data-aos="zoom-in-left"
+              data-aos-duration="2000" // Add AOS attribute here for fade-left effect
+              className="flex sm:text-[13px] sm:mb-8 sm:justify-center lg:text-[18px] mx-auto lg:flex-col lg:gap-20"
+            >
+              <h1 className="bg-white text-center p-2 sm:w-[25%] lg:w-[100%] mr-3 rounded-full transform rotate-12">
                 Mobile Design
               </h1>
               <h1 className="bg-white text-center sm:w-[25%] lg:w-[100%] mr-2 p-2 w-2/4 rounded-full transform sm:-rotate-3 lg:rotate-6">
                 UI/UX
               </h1>
-              <h1 className="bg-white text-center sm:w-[25% lg:w-[100%] p-2 rounded-full transform -rotate-6">
+              <h1 className="bg-white text-center sm:w-[25%] lg:w-[100%] p-2 rounded-full transform -rotate-6">
                 Design systems
               </h1>
             </div>
@@ -46,8 +59,12 @@ const Hello = () => {
                 engaged customers
               </h1>
             </div>
-            <div className=" flex sm:text-[13px] sm:justify-center  lg:text-[18px] lg:flex-col lg:gap-20 sm:gap-0 lg:-mt-7 sm:mt-12 ">
-              <h1 className="bg-white p-2  text-center sm:w-[25%] lg:w-[100%] mr-2  rounded-full transform -rotate-12">
+            <div
+              data-aos="zoom-in-right"
+              data-aos-duration="2000"
+              className="flex sm:text-[13px] sm:justify-center lg:text-[18px] lg:flex-col lg:gap-20 sm:gap-0 lg:-mt-7 sm:mt-12 "
+            >
+              <h1 className="bg-white p-2 text-center sm:w-[25%] lg:w-[100%] mr-2 rounded-full transform -rotate-12">
                 UI Animation
               </h1>
               <h1 className="bg-white p-2 text-center sm:w-[25%] lg:w-[100%] mr-2 rounded-full transform sm:rotate-6 lg:-rotate-6">

@@ -5,6 +5,7 @@ import dribble from "../../assets/Dribble.svg.png";
 import medium from "../../assets/medium.png";
 import linkdin from "../../assets/Linkdin.png";
 import Behance from "../../assets/Behance.png";
+import Typewriter from "react-typewriter-effect";
 
 const Footer = () => {
   return (
@@ -37,7 +38,15 @@ const Footer = () => {
         </div>
         <div className="text-center flex flex-col justify-center items-center">
           <h1 className="italic lg:text-[70px] sm:text-[50px]  transform scale-y-125 tracking-tight">
-            Let's Connect
+            <Typewriter
+              text="Let's Connect"
+              typeSpeed={100} // Speed of typing
+              cursorColor="transparent" // Cursor color
+              startDelay={500} // Delay before starting
+              eraseSpeed={50} // Speed of erasing
+              typingDelay={1000} // Delay before typing starts again
+              eraseDelay={2000} // Delay before erasing starts
+            />
           </h1>
           <p className="lg:w-1/2 sm:w-[90%] mb-5 lg:text-[22px]  text-secondary-color">
             Feel free to contact me if you have any questions. I'm available for
@@ -50,6 +59,7 @@ const Footer = () => {
             </button>
           </div>
         </div>
+
         <div className="flex gap- mb-7  sm:w-[%] space-x-4 mt-20">
           <div className=" border-2 p-1 sm:h-12 lg:h-14 rounded-full border-secondary-color">
             <img

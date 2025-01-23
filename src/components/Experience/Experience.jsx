@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "react-typewriter-effect";
 
 const Experience = () => {
   const experienceData = [
@@ -69,7 +70,15 @@ const Experience = () => {
                   </p>
                   {/* Company */}
                   <h1 className="text-lg lg:text-xl mt-2 sm:mt-2 sm:w-full lg:w-1/3 lg:mt-0 text-start lg:text-right">
-                    {item.company}
+                    <Typewriter
+                      text={item.company}
+                      typeSpeed={100} // Speed of typing
+                      cursorColor="transparent" // Cursor color
+                      startDelay={500} // Delay before starting
+                      eraseSpeed={50} // Speed of erasing
+                      typingDelay={1000} // Delay before typing starts again
+                      eraseDelay={2000} // Delay before erasing starts
+                    />
                   </h1>
                 </div>
                 <hr className="border border-[#c5c5c5] mt-2 w-[100%] mx-auto" />

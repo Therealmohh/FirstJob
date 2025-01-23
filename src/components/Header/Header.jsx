@@ -1,13 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import odun from "../../assets/odun 1.png";
 import FirstSwiper from "./FirstSwiper";
 import SecondSwiper from "./SecondSwiper";
 import arrow from "../../assets/ArrowUpRight.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Header = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration
+    });
+  }, []);
   return (
     // Main component
-    <div className="text-[88px] flex bg-transparent  flex-col w-full lg:justify-center lg:items-center font-instrument-serif sm:w-[90%] sm:mx-auto">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="2000"
+      className="text-[88px] flex bg-transparent  flex-col w-full lg:justify-center lg:items-center font-instrument-serif sm:w-[90%] sm:mx-auto"
+    >
       {/* Sub-Main Component */}
       <div className="mx-au text-center">
         <div className="flex items-center justify-center  w-full lg:-mb- sm:-mb-8">

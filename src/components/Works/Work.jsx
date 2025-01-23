@@ -1,14 +1,25 @@
 import React from "react";
 // import Phone1 from "../../assets/iphone14Pro(1).png";
 import Phone1 from "../../assets/iphone14Pro1.png";
+import { useEffect } from "react";
 
 import Phone2 from "../../assets/iphone14Pro2.png";
 import Macbook from "../../assets/Macbook-Pro-16.png";
 import Formpic from "../../assets/Request form.jpg";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Work = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration
+    });
+  }, []);
+
   return (
     <div
+      data-aos="fade-down-right"
       className="w-[95%] mx-auto mt-20 items-center lg:flex lg:flex-col"
       //   style={{ backgroundColor: "rgba(229, 229, 229, 1)" }}
     >
@@ -78,7 +89,7 @@ const Work = () => {
             </div>
             <div className="flex justify-between items-center mt-4 w-[93%] mx-auto">
               <h1 className="text-secondary-color sm:text-[15px] lg:text-xl">
-                Phone 2 Title
+                Auto-reconcilation - 2024
               </h1>
               <div className="flex gap-3 lg:text-base sm:text-[12px] items-center text-secondary-color ">
                 <p className="bg-primary-color rounded-full px-3 py-1">

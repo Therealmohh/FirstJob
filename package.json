@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "@vercel/client": "^13.5.4",
+    "aos": "^2.3.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.1.1",
     "react-slick": "^0.30.3",
+    "react-typewriter-effect": "^1.1.0",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.1.15",
     "vercel": "^39.3.0"

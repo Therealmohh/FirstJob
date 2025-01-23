@@ -4,8 +4,8 @@ import sako from "../../assets/Sako-logo.png";
 import techpay from "../../assets/techpay-logo.png";
 import Smart from "../../assets/Smarthms-logo.png";
 import Funconnect from "../../assets/Funconnect-Logo.png";
-import Alphabeta from "../../assets/Alphabeta-Logo.png";
-import LagosState from "../../assets/LagosState-Logo.png";
+import Alphabeta from "../../assets/Alphabeta-logo.png";
+import LagosState from "../../assets/LagosState-logo.png";
 
 const ImageSlider = () => {
   const images = [sako, techpay, Smart, Funconnect, Alphabeta, LagosState];

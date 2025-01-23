@@ -2,7 +2,7 @@ import React from "react";
 import arrow from "../../assets/ArrowUpRight.png";
 import twitter from "../../assets/Vector (1).png";
 import dribble from "../../assets/Dribble.svg.png";
-import medium from "../../assets/medium.png";
+import medium from "../../assets/Medium.png";
 import linkdin from "../../assets/Linkdin.png";
 import Behance from "../../assets/Behance.png";
 import Typewriter from "react-typewriter-effect";

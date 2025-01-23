@@ -1,9 +1,9 @@
 import React from "react";
 // import Phone1 from "../../assets/iphone14Pro(1).png";
-import Phone1 from "../../assets/iphone14Pro1.png";
+import Phone1 from "../../assets/iPhone14Pro1.png";
 import { useEffect } from "react";
 
-import Phone2 from "../../assets/iphone14Pro2.png";
+import Phone2 from "../../assets/iPhone14Pro2.png";
 import Macbook from "../../assets/Macbook-Pro-16.png";
 import Formpic from "../../assets/Request form.jpg";
 
